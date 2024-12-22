@@ -25,7 +25,17 @@ Or, if you are using a Jupiter notebook in VSCode, select the `accel` environmen
 > ```
 
 
+## Usage
+
+To open tensorboard to check the ppo training example in the cartpole environment, run the following command:
+
+```bash
+tensorboard --logdir=ppo_cartpole_tensorboard
+```
+
+
 ## Dependencies
 
+- Gymnasium: https://gym.openai.com/
 - Stable Baselines3: https://stable-baselines3.readthedocs.io/en/master/
 - Minigrid documentation: https://minigrid.farama.org/
