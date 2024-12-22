@@ -27,5 +27,5 @@ Or, if you are using a Jupiter notebook in VSCode, select the `accel` environmen
 
 ## Dependencies
 
-Stable Baselines3: https://stable-baselines3.readthedocs.io/en/master/
-Minigrid documentation: https://minigrid.farama.org/
+- Stable Baselines3: https://stable-baselines3.readthedocs.io/en/master/
+- Minigrid documentation: https://minigrid.farama.org/
