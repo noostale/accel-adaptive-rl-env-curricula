@@ -10,10 +10,24 @@ To install the environment, install the `miniconda` package manager, open the An
 conda env create --file accel_env.yaml
 ```
 
-This will create a new conda environment called `accel` with all the necessary dependencies. To activate the environment, run:
+or, if you want to install the CUDA version of the environment, run:
 
 ```bash
-conda activate accel
+conda env create --file accel_env_cuda.yaml
+```
+
+This will create a new conda environment called `accel`  or ``accel_env_cuda` with all the necessary dependencies.
+
+If you already installed the environment and want to update it, run:
+
+```bash
+conda env update --file [accel_env.yaml | accel_env_cuda.yaml] --prune
+```
+
+To activate the environment, run:
+
+```bash
+conda activate [accel | accel_env_cuda]
 ```
 
 Or, if you are using a Jupiter notebook in VSCode, select the `accel` environment in the top right corner of the notebook.
@@ -21,7 +35,7 @@ Or, if you are using a Jupiter notebook in VSCode, select the `accel` environmen
 > If you added some new dependencies to the environment, you can update the `accel_env.yaml` file by running:
 >
 > ```bash
-> conda env export > accel_env.yaml
+> conda env export > [accel_env.yaml | accel_env_cuda.yaml]
 > ```
 
 ## Usage
