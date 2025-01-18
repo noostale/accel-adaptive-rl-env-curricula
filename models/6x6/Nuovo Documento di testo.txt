@@ -1,0 +1,19 @@
+ config = {
+            "name": "model",
+            "grid_size": 6,
+            
+            "total_iterations": 512*4,
+            "train_steps": 6*6*2*18*2,            # Number of steps to train the model for each level
+
+            "replay_prob": 0.8,            # Probability of replaying a level and editing it vs. generating a new one
+            "level_buffer_size": 256,      # Maximum number of levels to store in the buffer
+            "initial_fill_size": 128,       # Number of levels to pre-fill the buffer with
+            "regret_threshold": 0.00,      # Minimum regret threshold to consider a level for the buffer
+            
+            "n_envs": 18,                   # Number of parallel environments to use for training
+            
+            "edit_levels": True,           # Whether to edit levels during training i.e. ACCEL or PLR
+            "easy_start": True,            # Whether to fill the buffer with easy levels first i.e. minimum number of blocks
+            "domain_randomization": False, # Whether to use domain randomization
+    
+        }
