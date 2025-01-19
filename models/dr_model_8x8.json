@@ -1,0 +1,1 @@
+{"name": "dr_model_8x8", "grid_size": 8, "train_steps": 384, "total_iterations": 512, "test_every_n_iterations": 12, "replay_prob": 0.8, "level_buffer_size": 256, "initial_fill_size": 128, "regret_threshold": 0.0, "n_envs": 6, "test_on_levels": 100, "edit_levels": false, "easy_start": false, "domain_randomization": true, "lr": 0.001, "batch_size": 128}
