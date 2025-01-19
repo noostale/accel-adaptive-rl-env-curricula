@@ -1,0 +1,1 @@
+{"name": "accel_model_easy_6x6_1000", "grid_size": 6, "train_steps": 648, "total_iterations": 1000, "test_every_n_iterations": 36, "replay_prob": 0.8, "level_buffer_size": 256, "initial_fill_size": 128, "regret_threshold": 0.0, "n_envs": 18, "test_on_levels": 100, "edit_levels": true, "easy_start": true, "domain_randomization": false, "lr": 0.0001, "batch_size": 128}
