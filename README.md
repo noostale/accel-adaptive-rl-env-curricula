@@ -1,7 +1,5 @@
 # Evolving Curricula with Regret-Based Environment Design
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?80FAEE665B8434DF404E4133482D9B7EA903
-
 Implementation of the paper "Evolving Curricula with Regret-Based Environment Design".
 
 ## Installation
