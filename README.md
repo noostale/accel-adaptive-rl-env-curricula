@@ -78,7 +78,15 @@ We tested each method using different hyperparameter configurations:
 - **Computational constraints limited further experiments**, suggesting potential improvements with more powerful hardware.
 
 
-## Installation
+## Implementation details
+
+The implementation is available as a Jupiter notebook, called `accel.ipynb`.
+
+### Models
+
+The models made from the paper are available in the `models` folder with a `.json` file that, for each model, contains the hyperparameters used to train it.
+
+### Installation
 
 To install the environment, install the `miniconda` package manager, open the Anaconda prompt and run the following command:
 
@@ -102,4 +110,3 @@ Or, if you are reading the Jupiter notebook in VSCode, select the `accel` enviro
 ## References
 - **[Evolving Curricula with Regret-Based Environment Design](https://arxiv.org/abs/2203.01302)** (ICML 2022) - Jack Parker-Holder, Minqi Jiang, Michael Dennis.
 - **[Prioritized Level Replay](https://arxiv.org/abs/2010.03934)** (ICML 2021) - Minqi Jiang, Edward Grefenstette, Tim Rocktäschel.
-
