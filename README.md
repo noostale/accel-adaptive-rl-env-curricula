@@ -78,11 +78,6 @@ We tested each method using different hyperparameter configurations:
 - **Computational constraints limited further experiments**, suggesting potential improvements with more powerful hardware.
 
 
-## References
-- **[Evolving Curricula with Regret-Based Environment Design](https://arxiv.org/abs/2203.01302)** (ICML 2022) - Jack Parker-Holder, Minqi Jiang, Michael Dennis.
-- **[Prioritized Level Replay](https://arxiv.org/abs/2010.03934)** (ICML 2021) - Minqi Jiang, Edward Grefenstette, Tim Rocktäschel.
-
-
 ## Installation
 
 To install the environment, install the `miniconda` package manager, open the Anaconda prompt and run the following command:
@@ -94,13 +89,6 @@ conda env create --file accel_env_cuda.yaml # with cuda
 
 This will create a new conda environment called `accel`  or `accel_env_cuda` with all the necessary dependencies.
 
-If you already installed the environment and want to update it, run:
-
-```bash
-conda env update --file accel_env.yaml --prune # cpu-only
-conda env update --file accel_env_cuda.yaml --prune # with cuda
-```
-
 To activate the environment, run:
 
 ```bash
@@ -108,11 +96,10 @@ conda activate accel # cpu-only
 conda activate accel_cuda # with cuda
 ```
 
-Or, if you are using a Jupiter notebook in VSCode, select the `accel` environment in the top right corner of the notebook.
+Or, if you are reading the Jupiter notebook in VSCode, select the `accel` environment in the top right corner of the notebook.
 
-> If you added some new dependencies to the environment, you can update the `accel_env.yaml` file by running:
->
-> ```bash
-> conda env export > accel_env.yaml # cpu-only
-> conda env export > accel_env_cuda.yaml # with cuda
-> ```
+
+## References
+- **[Evolving Curricula with Regret-Based Environment Design](https://arxiv.org/abs/2203.01302)** (ICML 2022) - Jack Parker-Holder, Minqi Jiang, Michael Dennis.
+- **[Prioritized Level Replay](https://arxiv.org/abs/2010.03934)** (ICML 2021) - Minqi Jiang, Edward Grefenstette, Tim Rocktäschel.
+
