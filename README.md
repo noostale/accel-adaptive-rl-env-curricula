@@ -1,9 +1,10 @@
 # ACCEL - Evolving Curricula with Regret-Based Environment Design
 This repository contains the code for an implementation of the paper **[Evolving Curricula with Regret-Based Environment Design](https://arxiv.org/abs/2203.01302)** by Jack Parker-Holder, Minqi Jiang, and Michael Dennis, presented at ICML 2022.
 
-| **ACCEL + EasyStart**                                                                | **ACCEL**                                                 | **DR (Domain Randomization)**                               | **PLR (Prioritized Level Replay)**                      |
-|--------------------------------------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------|
-| ![ACCEL + EasyStart](gifs/level_accel_easy.gif)                                      | ![ACCEL](gifs/level_accel.gif)                            | ![DR](gifs/level_dr.gif)                                     | ![PLR](gifs/level_plr.gif)                              |
+
+| **ACCEL + EasyStart**                                                                | **ACCEL**                                                 | **DR**                              | **PLR**                                                 |
+|--------------------------------------------------------------------------------------|-----------------------------------------------------------|-------------------------------------|---------------------------------------------------------|
+| ![ACCEL + EasyStart](gifs/level_accel_easy.gif)                                      | ![ACCEL](gifs/level_accel.gif)                            | ![DR](gifs/level_dr.gif)            | ![PLR](gifs/level_plr.gif)                              |
 
 ## Overview
 ACCEL (Adversarially Compounding Complexity by Editing Levels) is an evolutionary approach to Unsupervised Environment Design (UED) in reinforcement learning. It leverages regret-based objectives to dynamically adjust training environments, fostering systematic generalization and robust agent training.
