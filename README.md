@@ -91,8 +91,8 @@ The models made from the paper are available in the `models` folder with a `.jso
 To install the environment, install the `miniconda` package manager, open the Anaconda prompt and run the following command:
 
 ```bash
-conda env create --file accel_env.yaml # cpu-only
-conda env create --file accel_env_cuda.yaml # with cuda
+conda env create --file accel.yaml # cpu-only
+conda env create --file accel_cuda.yaml # with cuda
 ```
 
 This will create a new conda environment called `accel`  or `accel_env_cuda` with all the necessary dependencies.

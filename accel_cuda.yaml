@@ -1,4 +1,4 @@
-name: accel_env_cuda
+name: accel_cuda
 channels:
   - pytorch
   - nvidia
